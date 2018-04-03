@@ -1,0 +1,8 @@
+<template name="googleMaps">
+    <button class="loadAll">Показать все зоны</button>
+    <ul>
+        {{#each getZones}}
+            <li class="polygonName"><a class="polygonInfo"> {{name}} </a></li>
+        {{/each}}
+    </ul>
+</template>
